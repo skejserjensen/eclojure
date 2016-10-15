@@ -1,6 +1,6 @@
 eClojure
 ========
-This repository contains the software complementing the paper **Extending Software Transactional Memory in Clojure with Side-Effects and Transaction Control** presented at the **9th European Lisp Symposium**.
+This repository contains the software complementing the paper **[Extending Software Transactional Memory in Clojure with Side-Effects and Transaction Control](http://dl.acm.org/citation.cfm?id=3005729.3005737)** presented at the **[9th European Lisp Symposium](http://www.european-lisp-symposium.org/editions/2016/)**.
 
 The main contents is our extended version of Clojure 1.8, named eClojure, that extends the Software Transactional Memory (STM) of Clojure 1.8 in two directions. First support for synchronising side-effects using transactions is made possible through three events emitted: *after-commit*, *on-abort*, and *on-commit*. Second an implementation and extension of multiple transaction control methods pioneered by Haskell, *retry* and *orElse*, is provided.
 
